@@ -1,0 +1,96 @@
+(kicad_symbol_lib
+    (version 20241209)
+    (generator "chatgpt")
+    (generator_version "9.0")
+    (symbol "TEST_LED"
+        (pin_names (offset 1.016))
+        (exclude_from_sim no)
+        (in_bom yes)
+        (on_board yes)
+		(property "Reference" "D"
+            (at 0 5 0)
+            (effects (font (size 1.27 1.27)))
+        )
+        (property "Value" "TEST_LED"
+            (at 0 -5 0)
+            (effects (font (size 1.27 1.27)))
+        )
+		(symbol "TEST_LED_0_0"			
+			(pin passive line
+				(at -13.62 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+
+
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

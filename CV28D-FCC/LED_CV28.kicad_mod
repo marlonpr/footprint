@@ -1,0 +1,164 @@
+(footprint "LED_CV28"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RGB SMD LED — 3 rows x 2 columns, 1.2x0.5 pads, 0.3mm vertical, 1.6mm horizontal spacing")
+	(property "Reference" "REF**"
+		(at -4.5 0.5 0)
+		(layer "F.SilkS")
+		(uuid "e5654b83-9f2d-465c-97e9-3af1a68007b3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_CV28"
+		(at -1 2.5 0)
+		(layer "F.Fab")
+		(uuid "f259833f-b409-477c-9c87-1c9558535597")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2999df30-19b5-44a6-a0db-cbe9d43a0851")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fbf1f39-1dd9-4be0-a36f-6f248ad6182b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.15 -1.6)
+		(end 2.15 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1bf3318-8af9-4919-86e8-14da108fa18f")
+	)
+	(fp_line
+		(start -2.15 0.8)
+		(end -2.15 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "658d980b-15ce-4f90-b0fd-f431fabfb411")
+	)
+	(fp_line
+		(start 2.15 -1.6)
+		(end 2.15 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c1c0b9d-6a04-4d77-ab8d-04199fb156e1")
+	)
+	(fp_line
+		(start 2.15 0.8)
+		(end -2.15 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60f70e8f-8df2-4eef-a9bf-7bf9cf2d6861")
+	)
+	(fp_circle
+		(center -3 -1.5)
+		(end -2.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7e60cf78-0c68-4a72-a4d0-212bcb2941b4")
+	)
+	(fp_rect
+		(start -2.5 -2)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5742aa3c-b8c4-4994-af7c-0fe90a0ef689")
+	)
+	(pad "A1" smd rect
+		(at 1.4 0.4)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5217f22e-db53-4659-bd7e-86c82d8f6cd6")
+	)
+	(pad "A2" smd rect
+		(at 1.4 -0.4)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5570620d-48f8-4424-a7b8-f45d8111f252")
+	)
+	(pad "A3" smd rect
+		(at 1.4 -1.2)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e0305af-9b4f-4d86-8259-419785e4275b")
+	)
+	(pad "C1" smd rect
+		(at -1.4 0.4)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb464c59-6be2-427e-a1cb-52d97751759f")
+	)
+	(pad "C2" smd rect
+		(at -1.4 -0.4)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "994921fa-ca39-49ba-8915-810eb923071d")
+	)
+	(pad "C3" smd rect
+		(at -1.4 -1.2)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "95bcbc6e-6bc3-4a05-9828-689eff7a5a8b")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Marlon/Documents/KiCad/9.0/footprints/CV28D-FCC/CV28D-FCC.stp"
+		(offset
+			(xyz 0 0.5 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -180 -0)
+		)
+	)
+)
