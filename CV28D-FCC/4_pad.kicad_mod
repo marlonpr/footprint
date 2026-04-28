@@ -1,13 +1,13 @@
-(footprint "LED_CV28"
-	(version 20260206)
+(footprint "4_pad"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RGB SMD LED — 3 rows x 2 columns, 1.2x0.5 pads, 0.3mm vertical, 1.6mm horizontal spacing")
 	(property "Reference" "REF**"
-		(at -4.5 0.5 0)
+		(at -5.775 -2.725 0)
 		(layer "F.SilkS")
-		(uuid "f9c4f18e-6e5a-4cfd-abf3-c655fcbd78d9")
+		(uuid "e5654b83-9f2d-465c-97e9-3af1a68007b3")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -15,10 +15,10 @@
 			)
 		)
 	)
-	(property "Value" "LED_CV28"
-		(at -1 2.5 0)
+	(property "Value" "4_pad"
+		(at -3.175 -1.125 0)
 		(layer "F.Fab")
-		(uuid "e6f053e0-2dc6-4d77-a014-81823f43cb81")
+		(uuid "f259833f-b409-477c-9c87-1c9558535597")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cd4ca6d6-70dc-49e7-bbe8-edea08ecfc3a")
+		(uuid "2999df30-19b5-44a6-a0db-cbe9d43a0851")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a9595b40-9092-456a-9b53-49d54070647d")
+		(uuid "7fbf1f39-1dd9-4be0-a36f-6f248ad6182b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,104 +51,91 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -2.15 -1.6)
-		(end 2.15 -1.6)
+		(start -3.75 -5.4)
+		(end -2.1 -5.4)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dc9ca69c-2967-43f3-9ad8-eb0790a80a47")
+		(uuid "c1bf3318-8af9-4919-86e8-14da108fa18f")
 	)
 	(fp_line
-		(start -2.15 0.8)
-		(end -2.15 -1.6)
+		(start -3.75 -2.175)
+		(end -3.75 -5.4)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "701cb4c4-3982-465f-b251-bddfe793bac1")
+		(uuid "658d980b-15ce-4f90-b0fd-f431fabfb411")
 	)
 	(fp_line
-		(start 2.15 -1.6)
-		(end 2.15 0.8)
+		(start -2.1 -5.3)
+		(end -2.1 -2.175)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5c26f337-8d89-417d-ab9d-c94394b450c2")
+		(uuid "3c1c0b9d-6a04-4d77-ab8d-04199fb156e1")
 	)
 	(fp_line
-		(start 2.15 0.8)
-		(end -2.15 0.8)
+		(start -2.1 -2.2)
+		(end -3.75 -2.2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "eeea2b40-0d08-4fc1-9540-5602d9b95b6c")
+		(uuid "60f70e8f-8df2-4eef-a9bf-7bf9cf2d6861")
 	)
 	(fp_circle
-		(center -3 -1.5)
-		(end -2.75 -1.5)
+		(center -4.425 -5.25)
+		(end -4.175 -5.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "400b6feb-1d63-469c-8f23-4c584d370828")
+		(uuid "7e60cf78-0c68-4a72-a4d0-212bcb2941b4")
 	)
 	(fp_rect
-		(start -2.5 -2)
-		(end 2.5 1.5)
+		(start -3.939655 -5.554312)
+		(end -1.910344 -2.025)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "59fe08fa-dd58-4b48-8583-044998992982")
+		(uuid "5742aa3c-b8c4-4994-af7c-0fe90a0ef689")
 	)
-	(pad "1" smd rect
-		(at -1.4 -1.2)
+	(pad "C1" smd rect
+		(at -3 -5)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "73a13d94-ee98-4b74-bff5-c4452b6f937d")
+		(uuid "95bcbc6e-6bc3-4a05-9828-689eff7a5a8b")
 	)
-	(pad "2" smd rect
-		(at -1.4 -0.4)
+	(pad "C2" smd rect
+		(at -3 -4.2)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "597e5ab2-a2dc-4b54-8e12-9ea21f1f339d")
+		(uuid "994921fa-ca39-49ba-8915-810eb923071d")
 	)
-	(pad "3" smd rect
-		(at -1.4 0.4)
+	(pad "C3" smd rect
+		(at -3 -3.4)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b09259bf-5d2c-426c-b5e6-0ce793186b11")
+		(uuid "bb464c59-6be2-427e-a1cb-52d97751759f")
 	)
-	(pad "4" smd rect
-		(at 1.4 0.4)
+	(pad "C4" smd rect
+		(at -3 -2.6)
 		(size 1.2 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "65aa100a-1ac4-4ae0-968e-2f8dace0e65e")
-	)
-	(pad "5" smd rect
-		(at 1.4 -0.4)
-		(size 1.2 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3471b61f-4c0f-4829-8996-23be49bed9d0")
-	)
-	(pad "6" smd rect
-		(at 1.4 -1.2)
-		(size 1.2 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "92c001a7-bc47-4d52-b5a0-316acfb36829")
+		(uuid "dfbab665-b4d7-47d1-9a32-99ce3cce5068")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/Marlon/Documents/KiCad/9.0/footprints/CV28D-FCC/CV28D-FCC.stp"

@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "LED_CV28"
 		(pin_names
 			(offset 1.016)
@@ -9,8 +9,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
-			(at -1.016 3.81 0)
+			(at -0.254 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +23,9 @@
 			)
 		)
 		(property "Value" "LED_CV28"
-			(at -4.064 -16.51 0)
+			(at 2.794 -16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,37 +33,43 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_CV28"
-			(at -0.508 2.794 0)
+		(property "Footprint" "CV28D-FCC:LED_CV28"
+			(at -0.762 2.794 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LED_CV28_1_1"
 			(polyline
 				(pts
-					(xy -2 1.5) (xy -2 -1.5) (xy 0 0) (xy -2 1.5)
+					(xy -2.67 0.2) (xy -3.67 1.2)
 				)
 				(stroke
 					(width 0.254)
@@ -69,7 +81,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2 -4.5) (xy -2 -7.5) (xy 0 -6) (xy -2 -4.5)
+					(xy -2.67 -0.2) (xy -3.67 -1.2)
 				)
 				(stroke
 					(width 0.254)
@@ -81,7 +93,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2 -10.5) (xy -2 -13.5) (xy 0 -12) (xy -2 -10.5)
+					(xy -2.67 -5.8) (xy -3.67 -4.8)
 				)
 				(stroke
 					(width 0.254)
@@ -93,7 +105,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.5) (xy 0 -1.5)
+					(xy -2.67 -6.2) (xy -3.67 -7.2)
 				)
 				(stroke
 					(width 0.254)
@@ -105,7 +117,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -4.5) (xy 0 -7.5)
+					(xy -2.67 -11.8) (xy -3.67 -10.8)
 				)
 				(stroke
 					(width 0.254)
@@ -117,7 +129,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -10.5) (xy 0 -13.5)
+					(xy -2.67 -12.2) (xy -3.67 -13.2)
 				)
 				(stroke
 					(width 0.254)
@@ -129,7 +141,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.2 0.5) (xy 2.2 1.5)
+					(xy -2.47 0.5) (xy -3.47 1.5)
 				)
 				(stroke
 					(width 0.254)
@@ -141,7 +153,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.2 -0.5) (xy 2.2 -1.5)
+					(xy -2.47 -0.5) (xy -3.47 -1.5)
 				)
 				(stroke
 					(width 0.254)
@@ -153,7 +165,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.2 -5.5) (xy 2.2 -4.5)
+					(xy -2.47 -5.5) (xy -3.47 -4.5)
 				)
 				(stroke
 					(width 0.254)
@@ -165,7 +177,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.2 -6.5) (xy 2.2 -7.5)
+					(xy -2.47 -6.5) (xy -3.47 -7.5)
 				)
 				(stroke
 					(width 0.254)
@@ -177,7 +189,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.2 -11.5) (xy 2.2 -10.5)
+					(xy -2.47 -11.5) (xy -3.47 -10.5)
 				)
 				(stroke
 					(width 0.254)
@@ -189,7 +201,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.2 -12.5) (xy 2.2 -13.5)
+					(xy -2.47 -12.5) (xy -3.47 -13.5)
 				)
 				(stroke
 					(width 0.254)
@@ -201,7 +213,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.4 0.2) (xy 2.4 1.2)
+					(xy -1.27 1.5) (xy -1.27 -1.5)
 				)
 				(stroke
 					(width 0.254)
@@ -213,7 +225,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.4 -0.2) (xy 2.4 -1.2)
+					(xy -1.27 -4.5) (xy -1.27 -7.5)
 				)
 				(stroke
 					(width 0.254)
@@ -225,7 +237,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.4 -5.8) (xy 2.4 -4.8)
+					(xy -1.27 -10.5) (xy -1.27 -13.5)
 				)
 				(stroke
 					(width 0.254)
@@ -237,7 +249,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.4 -6.2) (xy 2.4 -7.2)
+					(xy 0.73 1.5) (xy 0.73 -1.5) (xy -1.27 0) (xy 0.73 1.5)
 				)
 				(stroke
 					(width 0.254)
@@ -249,7 +261,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.4 -11.8) (xy 2.4 -10.8)
+					(xy 0.73 -4.5) (xy 0.73 -7.5) (xy -1.27 -6) (xy 0.73 -4.5)
 				)
 				(stroke
 					(width 0.254)
@@ -261,7 +273,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.4 -12.2) (xy 2.4 -13.2)
+					(xy 0.73 -10.5) (xy 0.73 -13.5) (xy -1.27 -12) (xy 0.73 -10.5)
 				)
 				(stroke
 					(width 0.254)
@@ -272,61 +284,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 0 0)
-				(length 2.5)
-				(name "A1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -6.35 -6.35 0)
-				(length 2.5)
-				(name "A2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "A2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -6.35 -12.7 0)
-				(length 2.5)
-				(name "A3"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "A3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 0 180)
+				(at -7.62 0 0)
 				(length 2.5)
 				(name "C1"
 					(effects
@@ -335,7 +293,7 @@
 						)
 					)
 				)
-				(number "C1"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -344,7 +302,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -6.35 180)
+				(at -7.62 -6.35 0)
 				(length 2.5)
 				(name "C2"
 					(effects
@@ -353,7 +311,7 @@
 						)
 					)
 				)
-				(number "C2"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -362,7 +320,7 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -12.7 180)
+				(at -7.62 -12.7 0)
 				(length 2.5)
 				(name "C3"
 					(effects
@@ -371,7 +329,61 @@
 						)
 					)
 				)
-				(number "C3"
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -12.7 180)
+				(length 2.5)
+				(name "A3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -6.35 180)
+				(length 2.5)
+				(name "A2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.5)
+				(name "A1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
